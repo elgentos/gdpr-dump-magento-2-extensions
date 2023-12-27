@@ -201,6 +201,8 @@ tables:
   mageplaza_smtp_log:
     converters:
       email_content:
+        converter: 'randomText'
+      recipient:
         converter: 'randomizeEmail'
   
   mega_productinquery_query_log:
